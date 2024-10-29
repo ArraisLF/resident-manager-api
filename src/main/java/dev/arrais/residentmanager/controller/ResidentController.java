@@ -29,6 +29,7 @@ public class ResidentController {
     // Get all residents
     @GetMapping
     public ResponseEntity<List<Resident>> getAllResidents() {
+        //
         List<Resident> residents = residentService.getAllResidents();
         return ResponseEntity.ok(residents);
     }
