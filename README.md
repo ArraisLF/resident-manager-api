@@ -9,3 +9,21 @@ and tracking their stays at the clinic. It is paired with a mobile app for the a
 * Spring Boot 3.3
 * PostgresSQL
 * Docker and Docker Compose
+
+## Getting Started
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+* Java 17
+* Docker
+* Docker Compose
+
+### Building and Running the Application
+
+1. **Clone the repository**:
+   ```sh
+   git clone https://github.com/ArraisLF/resident-manager.git
+   cd resident-manager
+2. ```docker-compose up```
